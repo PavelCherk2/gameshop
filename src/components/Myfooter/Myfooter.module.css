@@ -1,1 +1,22 @@
-.Myfooter {}
+.MyFooter {
+    text-align: center;
+    background-color: rgb(108, 108, 249);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.MyFooter h2 {
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    font-family: "Oswald", sans-serif;
+    padding: 20px;
+}
+
+.MyFooter.dark {
+    background-color: rgb(48, 48, 77);
+}
+
+.MyFooter.dark h2{
+   color: rgb(180, 180, 255);
+}

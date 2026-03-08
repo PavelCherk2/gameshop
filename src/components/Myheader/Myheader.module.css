@@ -34,4 +34,27 @@
     font-size: 20px;
     color: rgb(255, 255, 255);
     font-family: "Barlow Condensed", sans-serif;
+    margin-top: 26px;
+    cursor: pointer;
+}
+
+img {
+    cursor: pointer;
+    width: 70px;
+}
+
+.MyHeader.dark {
+    background-color: rgb(30, 30, 50);
+}
+
+.MyHeader.dark .myTitle {
+    color: rgb(180, 180, 255);
+}
+
+.MyHeader.dark .myA {
+    color: rgb(180, 180, 255);
+}
+
+.MyHeader.dark .MyHeaderBlock {
+    background-color: rgb(30, 30, 50);
 }

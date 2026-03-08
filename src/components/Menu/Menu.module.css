@@ -1,1 +1,36 @@
-.Menu {}
+.MyMenu {
+    width: 25%;
+    background-color: rgb(74, 74, 216);
+    text-align: center;
+    min-height: 81vh;
+}
+
+.myA {
+    text-decoration: none;
+    color: rgb(234, 234, 249);
+    font-size: 20px;
+    font-family: "Barlow Condensed", sans-serif;
+}
+
+.myH2 {
+    padding: 120px 15px;
+    font-size: 30px;
+    color: rgb(239, 239, 249);
+    font-family: "Oswald", sans-serif;
+}
+
+.myLi {
+    padding-bottom:50px;
+}
+
+.MyMenu.dark {
+    background-color: rgb(37, 37, 102);
+}
+
+.MyMenu.dark .myA{
+    color: rgb(180, 180, 255);
+}
+
+.MyMenu.dark .myH2{
+    color: rgb(180, 180, 255);
+}
